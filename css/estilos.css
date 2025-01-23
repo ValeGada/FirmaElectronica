@@ -1,0 +1,122 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS general */
+body{
+    background-color: white;
+    color: #202021;
+    font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+	width: 800px;
+}
+
+h1{
+    font: 400 45px "Grand Hotel", serif; 
+	line-height: 70px;
+}
+
+h2{
+    font: 300 20px "Montserrat", sans-serif;
+	line-height: 50px;
+}
+
+span{
+	background-color: #e6ced6;
+	padding: 3px;
+}
+
+/* CSS Class & ID */
+#nombreyprofesion{
+    padding-right: 80px;
+	padding-bottom: 20px;
+}
+#contacto{
+    background-color: #91a199;
+    color: white;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	gap: 20px;
+	text-align: left;
+	line-height: 40px;
+	padding: 10px 100px 0px 10px;
+}
+#imagen{
+	padding-left: 25px;
+}
+#pngs{
+	text-align: right;
+	padding: 50px 0px 20px 100px;
+}
+#info{
+	padding-top: 50px;
+	width: 290px; 
+}
+.png{
+	padding: 1px;
+	height: 40px;
+}
+#linea{
+	padding-top: 25px;
+	margin-left: 250px;
+	border-bottom: 2px solid #e6ced6;
+}
+#linea2{
+	padding-top: 25px;
+	margin-left: 350px;
+	border-bottom: 2px solid #e6ced6;
+}
+#linea3{
+	padding-top: 25px;
+	margin-left: 450px;
+	border-bottom: 2px solid #e6ced6;
+}
